@@ -1,0 +1,23 @@
+/* Add this CSS in your global styles or in the same component */
+
+@media only screen and (max-width: 600px) {
+    .flex.space-x-10 {
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: black;
+        padding: 1rem;
+        display: none;
+    }
+
+    .flex.space-x-10.show {
+        display: flex;
+    }
+
+    .flex.space-x-10 a {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
